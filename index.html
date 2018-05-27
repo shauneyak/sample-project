@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>National University</title>
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <link rel="icon" href="images/logo without caption_background transparent.png" type="image/png">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+  </head>
+  <body>
+    <!-- header-->
+    <header>
+      <div class="top-header">
+        <div class="container clear-fix">
+          <!--phone-->
+          <div class="resp_contact phone">
+            <p class="phone">Contact Us</p>
+          </div>
+          <!--computer-->
+          <div class="left comp">
+            <p class="phoneno comp">040-23346778</p>
+            <p class="location comp">Bangalore, KA</p>
+          </div>
+          <div class="right comp">
+            <input type="search" placeholder="How can we help you?" title="SEARCH">
+            <span title="SEARCH"><i class="fa fa-search"></i></span>
+          </div>
+        </div>
+      </div>
+    </header><!-- end of header-->
+    <!-- slideshow,navigation & comp logo -->
+    <div class="logoimgnav">
+      <!-- carousel -->
+      <div class="container clear-fix">
+        <div class="slideshow-container">
+
+          <div class="mySlides fade">
+            <img src="images/carouselimage1.jpg" alt="image1" class="pics">
+          </div>
+
+          <div class="mySlides fade">
+            <img src="images/carouselpic2.jpg" alt="image2" class="pics">
+          </div>
+
+          <div class="mySlides fade">
+            <img src="images/carouselpic3.jpg" alt="image3" class="pics">
+          </div>
+
+        </div>
+        <br>
+
+        <div class="slideshowdots">
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div><!-- carousel end-->
+        <!-- navigation -->
+        <nav>
+          <ul>
+            <li><a href="#" title="HOME" class="comp">HOME</a></li>
+            <li class="dropdown">
+              <a href="#about" title="ABOUT THE UNIVERSITY" class="dropbtn">ABOUT</a>
+              <div class="dropdown-content comp">
+                <a href="#about" title="ABOUT THE UNIVERSITY">ABOUT  THE  UNIVERSITY</a>
+                <a href="#" title="LOCATION">LOCATION</a>
+                <a href="#" title="FACULTY">FACULTY</a>
+              </div>
+            </li>
+            <li class="dropdown">
+              <a href="#courses" title="COURSES" class="dropbtn">COURSES</a>
+              <div class="dropdown-content comp">
+                <a href="#cs">COMPUTER   SCIENCE & ENGINEERING</a>
+                <a href="#it">INFORMATION  TECHNOLOGY</a>
+                <a href="#is">INFORMATION  SCIENCE</a>
+                <a href="#">CRYPTOGRAPHY</a>
+                <a href="#">COMPUTER  NETWORKS</a>
+                <a href="#">MACHINE  LEARNING</a>
+              </div>
+            </li>
+            <li class="dropdown">
+              <a href="#" title="EVENTS" class="dropbtn">EVENTS</a>
+              <div class="dropdown-content comp">
+                <a href="#">SEMINAR ON ARTIFICIAL INTELLIGENCE</a>
+                <a href="#">SEMINAR ON LINUX</a>
+                <a href="#">ROBOTICS TECH FEST</a>
+                <a href="#">SEMINAR ON CRYPTOGRAPHY</a>
+              </div>
+            </li>
+            <li class="dropdown">
+              <a href="#" title="GALLERY" class="dropbtn">GALLERY</a>
+              <div class="dropdown-content comp">
+                <a href="#">PHOTOS</a>
+                <a href="#">VIDEOS</a>
+                <a href="#">SYMPOSIUM</a>
+                <a href="#">NATIONAL AWARDS</a>
+                <a href="#">UNIVERSITY RANKS</a>
+              </div>
+            </li>
+            <li><a href="#" title="CONTACT US" class="comp contactus-nav">CONTACT US</a></li>
+          </ul>
+        </nav><!--navigation end-->
+        <!-- logo for comp -->
+        <div class="divmainsitelogo">
+          <a href="#"><img src="images/main-site-header_03.png" alt="logo" title="National University Home" class="comp mainsitelogo"></a>
+        </div>
+      </div>
+    </div>
+    <!-- about section -->
+    <div class="aboutsection">
+      <div class="container clear-fix">
+        <div class="aboutleft">
+          <div class="h1andp">
+            <h1 id="about">ABOUT THE UNIVERSITY</h1>
+            <div class="underline"></div>
+          </div>
+          <p>National University is a Deemed University offering courses in Information Technolgy and Computer Science & Engineering.</p>
+          <a href="#"><button type="button" name="button" title="CLICK TO LEARN MORE ABOUT THE UNIVERSITY">Learn more..</button></a>
+        </div>
+        <div class="aboutright comp">
+          <img src="images/mainsite-middle-logo_07.png" alt="logo">
+        </div>
+      </div>
+    </div><!--about section end-->
+    <!-- courses section -->
+    <div class="courses">
+      <div class="container clear-fix">
+        <div class="courses-right">
+          <h1 id="courses">OUR FEATURED COURSES</h1>
+          <div class="courses-underline"></div>
+          <button title="Course Details of Computer Science & Engineering" id="cs">Computer Science & Engineering</button>
+          <button title="Course Details of Information Technology" id="it">Information Technology</button>
+          <button title="Course Details of Information Science" id="is">Information Science</button>
+          <button type="button" id="allCoursesBtn" class="view-courses" title="GET DETAILS OF ALL THE COURSES">View All Courses</button>
+          <!--VIEW ALL COURSES MODAL-->
+          <div class="courses-modal" id="coursesModalId">
+            <div class="courses-modal-content">
+              <div class="modal-header">
+                <span class="close" title="CLOSE">&times;</span>
+                <h2>ALL COURSES</h2>
+              </div>
+              <div class="modal-body">
+                <a href="#"><button title="Course Details of Computer Science & Engineering">Computer Science & Engineering</button></a>
+                <a href="#"><button title="Course Details of Information Technology">Information Technology</button></a>
+                <a href="#"><button title="Course Details of Information Science">Information Science</button></a>
+                <a href="#"><button title="Course Details of Cryptography">Cryptography</button></a>
+                <a href="#"><button title="Course Details of Computer Networks">Computer Networks</button></a>
+                <a href="#"><button title="Course Details of Machine Learning">Machine Learning</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!--courses section end-->
+    <!-- statistics section -->
+    <div class="statistics">
+      <div class="container clear-fix">
+        <h1>STATISTICS</h1>
+        <div class="stcs-underline"></div>
+        <!-- phone -->
+        <div class="respstcsmain clear-fix phone">
+          <div class="respstcs1" title="Statistics of Graduates">
+            <div class="resp1">
+
+            </div>
+            <p class="rp1">98%</p>
+            <p class="rcap1">Graduates</p>
+          </div>
+          <div class="respstcs2" title="Statistics of Students">
+            <div class="resp2">
+
+            </div>
+            <p class="rp2">6510</p>
+            <p class="rcap2">Students</p>
+          </div>
+          <div class="respstcs3" title="Statistics of Teachers">
+            <div class="resp3">
+
+            </div>
+            <p class="rp3">30+</p>
+            <p class="rcap3">Teachers</p>
+          </div>
+          <div class="respstcs4" title="Tech Seminars Statistics">
+            <div class="resp4">
+
+            </div>
+            <p class="rp4">8</p>
+            <p class="rcap4">Tech Seminars</p>
+          </div>
+        </div>
+        <!-- computer -->
+        <div class="stcsmain comp">
+          <div class="stcs1" title="Statistics of Graduates">
+            <p class="stcscount">98%</p>
+            <p class="stcscaption">Graduates</p>
+          </div>
+          <div class="stcs2" title="Statistics of Students">
+            <p class="stcscount">6510</p>
+            <p class="stcscaption">Students</p>
+          </div>
+          <div class="stcs3" title="Statistics of Teachers">
+            <p class="stcscount">30+</p>
+            <p class="stcscaption">Teachers</p>
+          </div>
+          <div class="stcs4" title="Tech Seminars Statistics">
+            <p class="stcscount">8</p>
+            <p class="stcscaption">Tech Seminars</p>
+          </div>
+        </div>
+      </div>
+    </div><!--statistics end-->
+    <!-- mid image -->
+    <div class="middleimage">
+      <div class="container clear-fix">
+        <h1>Trusted by Over 6000+ Students</h1>
+        <button type="button" name="button" title="Click to view featured courses" id="middleimagebtn">Join a Course</button>
+      </div>
+    </div><!--mid image end-->
+    <script src="js/js1.js" charset="utf-8"></script>
+  </body>
+</html>
